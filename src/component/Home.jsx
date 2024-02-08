@@ -582,7 +582,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <Navbar />
+      <NavBar />
       {openModal === false ? (
         <div>
           <Header />
