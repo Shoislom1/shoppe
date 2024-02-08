@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import Navbar from "./navbar";
+import NavBar from "./Navbar"
 import Header from "./Header";
 import ShoutCups from "./ShoutCups";
 import Chegerma from "./Chegerma";
