@@ -1,0 +1,58 @@
+.home-img {
+  border-radius: 10px;
+}
+.Cardes {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.all-img {
+  display: flex;
+  justify-content: center;
+}
+.card-list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.swiper-1 {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.swiper-div1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: center;
+}
+.text h3 {
+  font-size: 36px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 1px;
+}
+.text button {
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  color: #6fd943;
+  transition: 0.5s ease;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.text button:hover {
+  background-color: #6fd943;
+  color: #fff;
+}
+.Arzon {
+  margin-left: 1px;
+}

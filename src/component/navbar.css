@@ -1,0 +1,164 @@
+h1{
+    color: greenyellow;
+}
+h1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+}
+
+span{
+    color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.form{
+    border: 0;
+    background-color: #6FD94333;
+    margin-left: 30px;
+}
+.logo input{
+    padding: 10px 150px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #3C3C3C33;
+    background-color: #6FD94333;
+}
+
+.div-input{
+    position: relative;
+}
+.div-input button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 39px;
+    border: 0;
+    width: 100px;
+    border: 1px solid #3C3C3C33;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #6FD943;
+    cursor: pointer;
+}
+
+.logo .button{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.logo .button img{
+    width: 15px;
+    height: 15px;
+}
+.logo .button:hover{
+    background: #6FD94333;
+    border-radius: 10px;
+}
+h1{
+    color: greenyellow;
+}
+h1 img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 7px;
+}
+
+span{
+    color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.form{
+    border: 0;
+    background-color: #6FD94333;
+    margin-left: 30px;
+}
+.logo input{
+    padding: 10px 150px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #3C3C3C33;
+    background-color: #6FD94333;
+}
+
+.div-input{
+    position: relative;
+}
+.div-input button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 42px;
+    border: 0;
+    width: 100px;
+    border: 1px solid #3C3C3C33;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #6FD943;
+    cursor: pointer;
+}
+
+.logo .button{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.logo .button img{
+    width: 15px;
+    height: 15px;
+}
+.logo .button:hover{
+    background: #6FD94333;
+    border-radius: 10px;
+}
+.bx-menu-alt-right{
+    display: none;
+}
+
+
+@media (max-width: 1245px) {
+    .div-input{
+        display: none;
+    }
+    .div-input-res{
+        display: block;
+        margin-top: 50px;
+    }
+    .logo-res{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons-div{
+        display: none; 
+    }
+    .buttons-div-res{
+        margin-top: 50px;
+        display: block;
+    }
+    .bx-menu-alt-right, bx-x{
+        font-size: 30px;
+        display: block;
+    }
+}

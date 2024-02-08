@@ -1,0 +1,36 @@
+.skidka-btn {
+  width: 150px;
+  height: 30px;
+  background-color: #6fd943;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.Arzon {
+  margin-left: 90px;
+  margin-top: 60px;
+}
+
+.open {
+  width: 900px;
+  margin-top: 30px;
+  height: 40px;
+  margin-left: 14%;
+  border: 0;
+  border-radius: 10px;
+  background-color: #6fd943;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.open:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}

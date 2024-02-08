@@ -1,0 +1,44 @@
+.Shout-row img {
+  width: 120px;
+  height: 100px;
+}
+.Shout-row {
+  width: 190px;
+  height: 200px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: 0.5s ease;
+}
+.Shout-row img {
+  margin-left: 14%;
+  width: 150px;
+}
+.Shout-row:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.ShoutCups {
+  padding: 30px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .Shout-row img {
+    width: 0;
+  }
+  .Shout-row {
+    width: 140px;
+    height: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .ShoutCups {
+    display: flex;
+    flex-direction: column;
+  }
+}

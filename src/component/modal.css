@@ -1,0 +1,113 @@
+.home-img img {
+  width: 500px;
+  height: 500px;
+}
+
+.images {
+  display: flex;
+  gap: 30px;
+}
+
+.component-images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+.component-images img {
+  width: 100px;
+  height: 100px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+.viewModalDiv {
+  display: flex;
+}
+.details-cell {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.start-info {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.start-info h3 {
+  margin-top: 8px;
+}
+.info {
+  margin-top: 40px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0px;
+}
+
+.counter {
+  margin-top: 40px;
+}
+.counter .span {
+  width: 200px;
+  background-color: #ffffff;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  height: 54.5px;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.counter .span span button {
+  padding: 17px 22px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.counter .span span:first-child button {
+  background-color: #fff;
+}
+.counter .span span:last-child button {
+  background-color: #6fd943;
+}
+
+.counter {
+  font-size: 16px;
+}
+.narx {
+  margin-top: 25px;
+}
+.button-card button:first-child {
+  padding: 12px 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #6fd943;
+  color: white;
+  cursor: pointer;
+}
+.button-card {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 0 10px;
+  cursor: pointer;
+}
+.button-zor {
+  padding: 12px 30px;
+  background-color: white;
+  border: 1px solid #6fd943;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-card button:last-child {
+  padding: 10px 10px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #6fd943;
+  cursor: pointer;
+}
+.fadeIn {
+  transition: 0.5s ease-in-out;
+}
