@@ -3,7 +3,6 @@ import React from "react";
 import "./modal.css";
 import Box from "@mui/material/Box";
 import Rating from "@mui/material/Rating";
-import Card from "./Card";
 const ViewModalDiv = ({
   currentImageIndex,
   setCurrentImageIndex,

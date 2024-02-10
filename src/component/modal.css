@@ -22,6 +22,7 @@
 }
 .viewModalDiv {
   display: flex;
+  flex-wrap: wrap;
 }
 .details-cell {
   margin-left: 70px;
