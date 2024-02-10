@@ -29,11 +29,6 @@ export default function Header() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="slide-1">
-            <h2>Har kuni Arzon narxlar</h2>
-            <p>Sirli to’plam</p>
-            <button>Ko’proq ko’rish</button>
-          </div>
         </SwiperSlide>
         <SwiperSlide
           style={{
@@ -43,11 +38,6 @@ export default function Header() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="slide-2">
-            <h2>Har kuni Arzon narxlar</h2>
-            <p>Sirli to’plam</p>
-            <button>Ko’proq ko’rish</button>
-          </div>
         </SwiperSlide>
         <SwiperSlide
           style={{
@@ -57,11 +47,6 @@ export default function Header() {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="slide-3">
-            <h2>Har kuni Arzon narxlar</h2>
-            <p>Sirli to’plam</p>
-            <button>Ko’proq ko’rish</button>
-          </div>
         </SwiperSlide>
       </Swiper>
     </>
